@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Paddy's Spotify Search</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="jquery-1.11.1.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+ </head>
+ <body>
+  <h1>Paddy's Spotify Search</h1>
+  <div>
+   <form>
+   	<input type="text" name="artist" id="artist" placeholder="Artist">
+   	<input type="text" name="track" id="track" placeholder="Song Title">
+   	<input type="text" name="album" id="album" placeholder="Album">
+   	<input type="text" name="genre" id="genre" placeholder="Genre">
+   	<input type="number" name="year" id="year" min="0" max="2015" placeholder="Year">
+   	<input type="submit" value="Search">
+   </form>
+  </div>
+  <br>
+  <div>
+   <table></table>
+  </div>
+  <br>
+  <div id="buttons">
+   <button id="prev" hidden>Previous</button>
+   <button id="next" hidden>Next</button>
+  </div>
+ </body>
+</html>

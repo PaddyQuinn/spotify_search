@@ -1,0 +1,94 @@
+html {
+	background-color: black;
+}
+
+h1 {
+	text-align: center;
+	color: #81B71A;
+}
+
+form {
+	text-align: center;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td {
+	list-style-type: none;
+	background-color: #81B71A;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+	width: 250px;
+	height: 250px;
+	text-align: center;
+}
+
+input, #prev, #next {
+	height: 10%;
+	width: 10%;
+	color: black;
+	background-color: #81B71A;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+	border: 0px;
+}
+
+#buttons {
+	width: 100%;
+	text-align: center;
+}
+
+.stopped, .paused, .nowPlaying {
+	color: #81B71A;
+	background-color: black;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+	border: 0px;
+}
+
+#buttons {
+
+}
+
+input[type="text"] {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input[type="text"]:focus {
+	outline: 0;
+}
+
+img {
+	width: 150px;
+	height: 150px;
+}
+
+::-webkit-input-placeholder {
+   color: black;
+   opacity: 0.6;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: black;  
+   opacity: 0.6;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: black;  
+   opacity: 0.6;
+}
+
+:-ms-input-placeholder {  
+   color: black;  
+   opacity: 0.6;
+}
